@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="hack.n.dine">
+
+  <include file="configure.zcml" />
+
+  <genericsetup:registerProfile
+      name="testing"
+      title="hack.n.dine tests"
+      directory="profiles/testing"
+      description="Steps to ease tests of hack.n.dine"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

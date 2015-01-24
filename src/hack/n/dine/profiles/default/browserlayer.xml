@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<layers>
+  <layer
+    name="hack.n.dine"
+    interface="hack.n.dine.interfaces.IHackNDineLayer"
+  />
+</layers>
