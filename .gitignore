@@ -1,3 +1,13 @@
 /.project
 /.pydevproject
+/.installed.cfg
+/.mr.developer.cfg
 /.settings/
+/src/
+/bin/
+/develop-eggs/
+/include/
+/lib/
+/local/
+/parts/
+/var/
